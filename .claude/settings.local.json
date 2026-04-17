@@ -2,8 +2,11 @@
   "permissions": {
     "allow": [
       "Bash(npm install:*)",
+<<<<<<< HEAD
       "Bash(npm list:*)",
       "Bash(npx prettier:*)",
+=======
+>>>>>>> ec00834 (primera version menupatios)
       "Bash(npm run:*)"
     ]
   }
