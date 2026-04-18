@@ -636,15 +636,6 @@ export default function MenuPage() {
                   </motion.div>
                 </div>
               </motion.div>
-
-              {/* Decorative */}
-              <motion.div
-                className="hidden md:flex items-center justify-center"
-                animate={{ rotate: 360 }}
-                transition={{ duration: 60, repeat: Infinity, ease: "linear" }}
-              >
-                <div className="text-[10rem] opacity-10">🍕</div>
-              </motion.div>
             </div>
           </motion.div>
         </motion.section>
