@@ -362,7 +362,7 @@ export default function MenuPage() {
                   transition={{ duration: 0.5, delay: 0.4 }}
                 >
                   <span className="inline-block px-3 py-1 bg-[#f5c800]/20 text-[#c8102e] rounded-full text-xs font-oswald uppercase tracking-wider mb-2 border border-[#f5c800]/30">
-                    Pizzas Gourmet · Desde 2010
+                    Pizzas Gourmet · Desde 2014
                   </span>
                 </motion.div>
                 <motion.h1
