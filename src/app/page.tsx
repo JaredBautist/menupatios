@@ -692,37 +692,7 @@ export default function Home() {
             <div className="flex-1 bg-primary" />
           </div>
 
-          {/* CTA Banner - Subido más por petición del usuario */}
-          <div className="relative z-10 -mt-12 md:mt-0 md:-translate-y-1/2">
-            <div className="section-container">
-              <div className="bg-gradient-to-r from-primary via-primary/90 to-orange-600 rounded-3xl p-8 md:p-12 shadow-2xl relative overflow-hidden">
-                {/* Subtle diagonal lines */}
-                <div className="absolute inset-0 opacity-5" style={{
-                  backgroundImage: `repeating-linear-gradient(45deg, transparent, transparent 40px, rgba(255,255,255,0.3) 40px, rgba(255,255,255,0.3) 80px)`
-                }} />
-
-                <div className="relative flex flex-col md:flex-row items-center justify-between gap-8">
-                  <div className="text-center md:text-left">
-                    <h3 className="font-heading text-3xl md:text-4xl font-bold mb-2">
-                      ¡El sabor a tu medida!
-                    </h3>
-                    <p className="text-white/90 text-lg">
-                      Pizza artesanal lista para pedir. Abierto desde las 5:00 p.m.
-                    </p>
-                  </div>
-                  <Link
-                    href="https://linktr.ee/metropizzacol?utm_source=linktree_profile_share&ltsid=28985606-398f-41eb-aae1-6ff7192ca4b8"
-                    target="_blank"
-                    className="btn bg-white text-text-main hover:bg-gray-100 whitespace-nowrap px-10 py-4 shadow-xl flex gap-2 items-center"
-                  >
-                    <Phone className="w-5 h-5" /> Pedir Ahora
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="section-container pb-8">
+          <div className="section-container pt-16 pb-8">
             <div className="grid md:grid-cols-3 gap-12 border-b border-white/10 pb-12">
               <div>
                 <Link href="#inicio" className="flex items-center gap-3 font-script text-4xl mb-6">
